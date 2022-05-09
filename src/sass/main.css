@@ -1,0 +1,481 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins";
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+li {
+  font-family: "Poppins";
+}
+
+p {
+  font-family: "Poppins";
+}
+
+.app {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  padding: 0 5vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #1A1B25;
+}
+
+.app .floating-home {
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  width: 80px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  border-radius: 99rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.app .floating-home:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+header {
+  height: 15vh;
+  margin-bottom: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  color: white;
+}
+
+.home {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.restaurant-detail-page {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-restaurant {
+  width: 80%;
+  height: 10vh;
+  margin-bottom: 10vh;
+  background: #fff;
+  border-radius: 99rem;
+}
+
+.add-restaurant form {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-restaurant form .separator {
+  width: 1px;
+  height: 80%;
+  background: #00000059;
+}
+
+.add-restaurant form input {
+  width: 30%;
+  height: 100%;
+  padding-left: 3%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 99rem;
+  border: none;
+  background: none;
+  color: #000;
+  font-family: "Poppins";
+}
+
+.add-restaurant form input:focus {
+  outline: none;
+  background: #56576623;
+}
+
+.add-restaurant form input:hover {
+  background: #56576623;
+}
+
+.add-restaurant form select {
+  width: 20%;
+  height: 100%;
+  padding: 0 3%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 99rem;
+  border: none;
+  background: none;
+  color: #000;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.add-restaurant form select:focus {
+  outline: none;
+  background: #56576623;
+}
+
+.add-restaurant form select:hover {
+  background: #56576623;
+}
+
+.add-restaurant form button {
+  width: 70px;
+  height: 50px;
+  margin: 1%;
+  background: #F49F0A;
+  border: none;
+  border-radius: 99rem;
+  font-family: "Poppins";
+}
+
+.add-restaurant form button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.add-review {
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-review form {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-review form .top {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.add-review form .top input {
+  width: 70%;
+  height: 100%;
+  padding-left: 3%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 99rem;
+  border: none;
+  background: white;
+  color: #000;
+  font-family: "Poppins";
+}
+
+.add-review form .top input:focus {
+  outline: none;
+  background: #efefef;
+}
+
+.add-review form .top input:hover {
+  background: #efefef;
+}
+
+.add-review form .top select {
+  width: 20%;
+  height: 100%;
+  padding: 0 3%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 99rem;
+  border: none;
+  background: white;
+  color: #000;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.add-review form .top select:focus {
+  outline: none;
+  background: #efefef;
+}
+
+.add-review form .top select:hover {
+  background: #efefef;
+}
+
+.add-review form textarea {
+  height: 40%;
+  border-radius: 25px;
+}
+
+.add-review form button {
+  width: 100px;
+  height: 35px;
+  margin: 1%;
+  background: #00A6A6;
+  border: none;
+  border-radius: 99rem;
+  font-family: "Poppins";
+}
+
+.add-review form button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.list-restaurant {
+  width: 100%;
+  height: auto;
+}
+
+.list-restaurant table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.list-restaurant table thead {
+  border-radius: 99rem;
+}
+
+.list-restaurant table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+}
+
+.list-restaurant table thead tr th {
+  height: 5vh;
+  color: white;
+  text-decoration: underline;
+}
+
+.list-restaurant table tbody tr {
+  cursor: pointer;
+  height: 60px;
+  background: white;
+  border-bottom: 1px solid #dddddd;
+}
+
+.list-restaurant table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.reviews-container {
+  width: 80%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.reviews-container .review-card {
+  width: 250px;
+  height: 200px;
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #00A6A6;
+  border-radius: 25px;
+}
+
+.reviews-container .review-card .name-stars {
+  width: 100%;
+  height: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.reviews-container .review-card .review-text {
+  width: 100%;
+  height: 60%;
+}
+
+.reviews-container .review-card .review-text p {
+  white-space: normal;
+}
+
+.update-restaurant {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.update-restaurant form {
+  width: 40%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.update-restaurant form input {
+  width: 100%;
+  height: 20%;
+  padding-left: 3%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 99rem;
+  border: none;
+  background: white;
+  color: #000;
+  font-family: "Poppins";
+}
+
+.update-restaurant form input:focus {
+  outline: none;
+  background: #ebebeb;
+}
+
+.update-restaurant form input:hover {
+  background: #ebebeb;
+}
+
+.update-restaurant form button {
+  width: 50%;
+  height: 15%;
+  padding-left: 3%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 99rem;
+  border: none;
+  background: #00A6A6;
+  color: #000;
+  font-family: "Poppins";
+}
+
+.update-restaurant form button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+/*# sourceMappingURL=main.css.map */
