@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yelp-clone--frontend/static/css/main.822586e5.css",
+    "main.js": "/yelp-clone--frontend/static/js/main.3902c554.js",
+    "index.html": "/yelp-clone--frontend/index.html",
+    "main.822586e5.css.map": "/yelp-clone--frontend/static/css/main.822586e5.css.map",
+    "main.3902c554.js.map": "/yelp-clone--frontend/static/js/main.3902c554.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.822586e5.css",
+    "static/js/main.3902c554.js"
+  ]
+}
