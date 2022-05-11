@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/yelp-clone--frontend/static/css/main.822586e5.css",
-    "main.js": "/yelp-clone--frontend/static/js/main.d3490565.js",
+    "main.js": "/yelp-clone--frontend/static/js/main.d84256e9.js",
     "index.html": "/yelp-clone--frontend/index.html",
     "main.822586e5.css.map": "/yelp-clone--frontend/static/css/main.822586e5.css.map",
-    "main.d3490565.js.map": "/yelp-clone--frontend/static/js/main.d3490565.js.map"
+    "main.d84256e9.js.map": "/yelp-clone--frontend/static/js/main.d84256e9.js.map"
   },
   "entrypoints": [
     "static/css/main.822586e5.css",
-    "static/js/main.d3490565.js"
+    "static/js/main.d84256e9.js"
   ]
 }
